@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package txfmt;
+
+// Entry is a key-value pair.
+message Entry {
+  bytes key = 1;
+  bytes value = 2;
+}
+
+// Entries is a sequence of key-value pairs.
+message Entries {
+  repeated Entry entries = 1;
+}
