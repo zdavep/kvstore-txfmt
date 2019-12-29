@@ -1,4 +1,4 @@
-module github.com/zdavep/txfmt
+module github.com/zdavep/kvstore-txfmt
 
 go 1.13
 
