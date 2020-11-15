@@ -1,5 +1,5 @@
 module github.com/zdavep/kvstore-txfmt
 
-go 1.14
+go 1.15
 
-require github.com/golang/protobuf v1.3.2
+require github.com/golang/protobuf v1.4.3
